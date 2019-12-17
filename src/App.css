@@ -60,9 +60,16 @@ background: #01bad5;
     font-size: 30px;
     font-weight: 200;
     min-width: 60%;
-    overflow:scroll; 
+    overflow-x:hidden; 
     height: 90%;
+    overflow-y: auto;
 }
+::-webkit-scrollbar {display:none;} /* Safari */
+::-moz-scrollbars {display:none;}
+::-o-scrollbar {display:none;} /* opera */
+::-google-ms-scrollbar {display:none;}
+::-khtml-scrollbar {display:none;}
+
 .results{
       padding-left: 70px;
     font-size: 30px;
